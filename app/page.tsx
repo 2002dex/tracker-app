@@ -78,7 +78,7 @@ export default function Home() {
     let mounted = true
 
     const setupMqtt = async () => {
-      const brokerUrl = "ws://broker.emqx.io:8083/mqtt"
+      const brokerUrl = "wss://broker.emqx.io:8083/mqtt"
       const topic = "dspworks/tracker/ibeaconDSP578232951"
 
       const client = mqtt.connect(brokerUrl, {
