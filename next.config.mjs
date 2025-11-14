@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/tracker-app',
-  assetPrefix: '/tracker-app/',
-  trailingSlash: true,
+  // basePath: '/tracker-app',
+  // assetPrefix: '/tracker-app/',
+  // trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,
   },
